@@ -1,0 +1,69 @@
+.card {
+	display: flex;
+	background-color: #303f9f;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 370px;
+	height: 220px;
+	position: relative;
+	border-radius: 2rem;
+	margin-bottom: 80px;
+
+	.profile-img {
+		height: 8rem;
+		width: 8rem;
+		border: 0.5rem solid white;
+		border-radius: 50%;
+		position: absolute;
+		left: -4rem;
+	}
+
+	.text-content {
+		color: #62b4ef;
+		text-align: start;
+		margin-left: 5rem;
+		margin-bottom: 1rem;
+		width: 200px;
+	}
+
+	.name {
+		font-size: 1.3rem;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+	.post {
+		font-size: 0.9rem;
+	}
+
+	.social-icons {
+		background-color: #62b4ef;
+		color: #303f9f;
+		width: 3rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		font-size: 3rem;
+		height: 250px;
+		position: absolute;
+		bottom: -0.8rem;
+		right: 2.5rem;
+		border-radius: 1rem;
+	}
+
+	@media (max-width: 600px) {
+		.card {
+			height: 170px;
+		}
+
+		.social-icons {
+			height: 200px;
+		}
+
+		.text-content {
+			width: 150px;
+		}
+	}
+}

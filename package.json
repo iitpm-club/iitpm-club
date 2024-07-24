@@ -1,0 +1,66 @@
+{
+	"name": "force-iiitu",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.16.4",
+		"@testing-library/react": "^13.3.0",
+		"@testing-library/user-event": "^13.5.0",
+		"aos": "^2.3.4",
+		"axios": "^0.27.2",
+		"emailjs-com": "^3.2.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-feather": "^2.0.10",
+		"react-router-dom": "^6.3.0",
+		"react-scripts": "5.0.1",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"lint": "eslint --c .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
+		"prepare": "husky"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/akshatmittal61/force-iiitu.git"
+	},
+	"author": "Akshat Mittal",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/akshatmittal61/force-iiitu/issues"
+	},
+	"homepage": "https://force-iiitu.netlify.app/",
+	"eslintIgnore": [
+		"node_modules"
+	],
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"eslint": "^8.0.1",
+		"husky": "^9.0.11",
+		"prettier": "^3.3.2",
+		"sass": "^1.77.6"
+	}
+}
